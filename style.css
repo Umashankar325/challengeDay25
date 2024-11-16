@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+  /* background: gra; */
+  background: linear-gradient(#3369d4, #9f4377);
+  position: relative;
+  font-family: "Roboto", serif;
+}
+.card {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+
+  padding: 0 40px;
+  padding-top: 20px;
+  position: relative;
+}
+h2 {
+  text-align: center;
+  /* font-size: 30px; */
+  margin-top: 40px;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  height: 30px;
+  font-size: 17px;
+}
+button {
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  background-color: #3668d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+}
+.blue {
+  color: #3668d2;
+}
+
+.eyecontainer {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  /* background-color: red; */
+  left: 82%;
+  /* right: 0; */
+  top: 47%;
+  color: #767676;
+  /* text-align: center; */
+  /* padding-top: 2px; */
+  font-size: 25px;
+  /* background-color: red; */
+  /* text-align: center; */
+  padding-left: 3px;
+}
+.ri-eye-line {
+  position: absolute;
+
+  
+}
+.ri-eye-off-line {
+
+  position: absolute;
+  /* display: none; */
+  display: none;
+}
+.eyecontainer:hover {
+  cursor: pointer;
+}
+
